@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+#idDmain {
+    text-align: center;
+    background-color: blueviolet;
+    font-size: large;
+    margin: 0em;
+    border-radius: 1px;
+    padding: 12px 10px 12px 10px;
+    
+}
+
+#idIMain {
+    background-color: white;
+    margin: 0em;
+    width: 75%;
+    border: none ;
+    float: left;
+    font-size: large;
+    
+}
+
+#idBadd {
+    background-color: red;
+    width: 25%;
+    font-size: large;
+    margin: o;
+    float: left;
+  
+
+}
+
+#idBadd:hover {
+    background-color: green ;    
+}
+
+.clUlView {
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+   }
+
+   .clLiView {
+       margin:0;
+       border: 2px;
+       width:100% ;
+       font-size: large;
+       font-family: sans-serif;
+       position: relative;
+       float: left;
+     
+   }
+
+   ul li:hover {
+       background-color: hotpink;
+   }
+   
+  ul li:nth-child(odd) {
+    background: red;
+  }
+  
+  ul li:nth-child(even) {
+    background: blue;
+  }
+
+  .clDelList {
+      background: mediumvioletred;
+      width: 25%;
+      font-size: large;
+      position: absolute;
+      right: 0;
+      text-align: center;
+      
+  }
+
+  .clDelList:hover
+  {
+    background: darkorchid;
+  }
